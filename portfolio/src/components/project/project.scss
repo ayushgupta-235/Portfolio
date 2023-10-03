@@ -1,0 +1,43 @@
+.project-container {
+    background-color: crimson;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+    .red-background {
+      background-color: crimson;
+      padding: 20px;
+      text-align: center;
+  
+      h1 {
+        color: white;
+      }
+    }
+  
+    .center-box {
+      background-color: white;
+      width: 400px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      overflow-y: hidden;
+  
+      img {
+        width: 400px;
+        height: 350px;
+      }
+  
+      p {
+        font-size: 18px;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  
